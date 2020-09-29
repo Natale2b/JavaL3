@@ -10,7 +10,6 @@ import java.util.GregorianCalendar;
 public class Secretaire extends Employe {
     private int nbManager = 0;
     private ArrayList<Manager> managers = new ArrayList<Manager>();
-
     public Secretaire(String leNom, String lePrenom, GregorianCalendar laDate, Adresse lAdresse, Double salaire, GregorianCalendar dateEmbauche) {
         super(leNom, lePrenom, laDate, lAdresse, salaire, dateEmbauche);
     }
